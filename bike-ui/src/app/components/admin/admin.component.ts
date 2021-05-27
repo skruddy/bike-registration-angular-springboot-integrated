@@ -11,7 +11,7 @@ public bikes;
 
   constructor(private bikeService: BikeService) { }
 
-  ngOnInit(): void {
+  ngOnInit(){
     this.getBikes();
   }
 
